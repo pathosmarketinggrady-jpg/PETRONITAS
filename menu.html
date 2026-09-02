@@ -1,0 +1,380 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Menus | Petronita's, Southern &amp; Latin Cuisine, Jacksonville</title>
+<meta name="description" content="The chef's five-course tasting menu, the vegan tasting menu, weekend brunch and the sake cocktail list at Petronita's, 1349 N. Market Street, Jacksonville.">
+<link rel="canonical" href="https://petronitas.com/menu.html">
+<link rel="icon" href="assets/favicon.png" type="image/png">
+<meta name="theme-color" content="#0B0908">
+
+<meta property="og:type" content="website">
+<meta property="og:title" content="Menus | Petronita's">
+<meta property="og:description" content="Five courses, a vegan tasting menu, weekend brunch and a cocktail list built on sake.">
+<meta property="og:image" content="assets/chef-wide.jpg">
+
+<link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+
+<a class="skip" href="#main">Skip to content</a>
+
+<svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false">
+  <symbol id="i-arrow" viewBox="0 0 24 24"><path d="M5 12h14M13 6l6 6-6 6"/></symbol>
+  <symbol id="i-search" viewBox="0 0 24 24"><circle cx="11" cy="11" r="7"/><path d="M20 20l-3.6-3.6"/></symbol>
+  <symbol id="i-ig" viewBox="0 0 24 24"><rect x="3" y="3" width="18" height="18" rx="5"/><circle cx="12" cy="12" r="4"/><circle cx="17.4" cy="6.6" r="1" fill="currentColor" stroke="none"/></symbol>
+  <symbol id="i-fb" viewBox="0 0 24 24"><path d="M14.5 8.5h2.5V5h-2.5C12.6 5 11 6.6 11 8.5V11H8.5v3.5H11V21h3.5v-6.5H17l.5-3.5h-3V9c0-.3.2-.5.5-.5z"/></symbol>
+  <symbol id="i-tt" viewBox="0 0 24 24"><path d="M14 4v9.5a3.5 3.5 0 1 1-3.5-3.5"/><path d="M14 4a5 5 0 0 0 5 5"/></symbol>
+</svg>
+
+<header class="site-head" id="siteHead">
+  <div class="wrap head-in">
+    <a class="brand" href="index.html" aria-label="Petronita's, home">
+      <img src="assets/logo-mark.png" alt="Petronita's Southern and Latin cuisine" width="300" height="305">
+    </a>
+    <button class="burger" id="burger" type="button" aria-expanded="false" aria-controls="nav" aria-label="Menu">
+      <span></span><span></span><span></span>
+    </button>
+    <nav class="nav" id="nav" aria-label="Primary">
+      <ul class="nav__list">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="menu.html" aria-current="page">Menu</a></li>
+        <li><a href="story.html">Our Story</a></li>
+        <li><a href="visit.html">Visit</a></li>
+      </ul>
+      <a class="btn" href="visit.html#reserve">Reserve</a>
+    </nav>
+  </div>
+</header>
+
+<main id="main">
+
+  <section class="band band--tight glow">
+    <div class="wrap" style="text-align:center;max-width:62ch;margin-inline:auto">
+      <p class="es" data-in>La Carta</p>
+      <p class="eyebrow eyebrow--center" data-in>Menus</p>
+      <h1 data-in style="--d:1">What we are cooking</h1>
+      <p class="lede" style="margin-top:var(--s5);margin-inline:auto;--d:2" data-in>
+        Dinner is a single five-course tasting menu, written for the season.
+        Brunch is à la carte on Saturday and Sunday. Everything below is what
+        is being served right now.
+      </p>
+      <p class="mgroup__note" style="margin-top:var(--s5)" data-in>August / September 2026</p>
+    </div>
+  </section>
+
+  <!-- ============================== FILTER BAR ============================== -->
+  <div class="menubar">
+    <div class="wrap menubar__in">
+      <div class="chips" role="group" aria-label="Filter the menu">
+        <!-- CHIPS:START -->
+        <button class="chip" type="button" data-cat="all" aria-pressed="true">All</button>
+        <button class="chip" type="button" data-cat="tasting" aria-pressed="false">Tasting</button>
+        <button class="chip" type="button" data-cat="tasting-vegan" aria-pressed="false">Vegan</button>
+        <button class="chip" type="button" data-cat="brunch" aria-pressed="false">Brunch</button>
+        <button class="chip" type="button" data-cat="sides" aria-pressed="false">Sides</button>
+        <button class="chip" type="button" data-cat="drink" aria-pressed="false">Cocktails</button>
+        <!-- CHIPS:END -->
+      </div>
+
+      <label class="menufind">
+        <svg class="ico" aria-hidden="true"><use href="#i-search"></use></svg>
+        <span class="sr-only">Search the menu</span>
+        <input id="menuFind" type="search" autocomplete="off" placeholder="Search shrimp, sake, waffles">
+      </label>
+
+      <p class="menucount" id="menuCount" role="status" aria-live="polite"></p>
+    </div>
+  </div>
+
+  <section class="band" style="padding-top:var(--s5)">
+    <div class="wrap" id="menuRoot">
+
+      <!-- GROUPS:START -->
+
+      <section class="mgroup mgroup--gold" id="tasting" data-kind="food">
+        <div class="mgroup__head">
+          <div class="mgroup__title">
+            <h2>Chef's Tasting Menu</h2>
+            <span class="es" style="margin:0">Menú de Degustación</span>
+            <span class="n">5 courses</span>
+          </div>
+          <div class="mgroup__rule"></div>
+          <p class="mgroup__blurb">Five courses, served in order, changing with the season. This is the dinner service in full.</p>
+          <p class="mgroup__note">August / September 2026</p>
+        </div>
+        <div class="mlist">
+          <article class="mitem" data-hay="watermelon shrimp ceviche watermelon red onion jalapeno cilantro mint">
+            <p class="mitem__name"><span>Watermelon Shrimp Ceviche</span></p>
+            <p class="mitem__desc">Watermelon, red onion, jalapeño, cilantro, mint</p>
+          </article>
+          <article class="mitem" data-hay="citrus carpaccio blood orange navel orange red onion fennel kalamata olive cotija arugula extra virgin olive oil">
+            <p class="mitem__name"><span>Citrus Carpaccio</span></p>
+            <p class="mitem__desc">Blood orange, navel orange, red onion, fennel, kalamata olive, cotija, arugula, extra virgin olive oil</p>
+          </article>
+          <article class="mitem" data-hay="duck tostada hibiscus tortilla black bean puree cherry rum glaze">
+            <p class="mitem__name"><span>Duck Tostada</span></p>
+            <p class="mitem__desc">Hibiscus tortilla, black bean purée, cherry rum glaze</p>
+          </article>
+          <article class="mitem" data-hay="braised short rib celery root puree aleppo pepper demi glace pomegranate chimichurri">
+            <p class="mitem__name"><span>Braised Short Rib</span></p>
+            <p class="mitem__desc">Celery root purée, Aleppo pepper demi glace, pomegranate chimichurri</p>
+          </article>
+          <article class="mitem" data-hay="tres leches bread pudding creme anglaise seasonal berries mint dessert">
+            <p class="mitem__name"><span>Tres Leches Bread Pudding</span></p>
+            <p class="mitem__desc">Crème anglaise, seasonal berries, mint</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="mgroup mgroup--jade" id="tasting-vegan" data-kind="food">
+        <div class="mgroup__head">
+          <div class="mgroup__title">
+            <h2>Chef's Tasting Menu, Vegan</h2>
+            <span class="es" style="margin:0">Menú Vegano</span>
+            <span class="n">5 courses</span>
+          </div>
+          <div class="mgroup__rule"></div>
+          <p class="mgroup__blurb">The same five courses, built without any animal product. Ordered the same way, served the same night.</p>
+          <p class="mgroup__note">August / September 2026</p>
+        </div>
+        <div class="mlist">
+          <article class="mitem" data-hay="watermelon ceviche watermelon red onion jalapeno cilantro mint vegan">
+            <p class="mitem__name"><span>Watermelon Ceviche</span><span class="vmark">Vegan</span></p>
+            <p class="mitem__desc">Watermelon, red onion, jalapeño, cilantro, mint</p>
+          </article>
+          <article class="mitem" data-hay="citrus carpaccio blood orange navel orange red onion fennel kalamata olive arugula extra virgin olive oil vegan">
+            <p class="mitem__name"><span>Citrus Carpaccio</span><span class="vmark">Vegan</span></p>
+            <p class="mitem__desc">Blood orange, navel orange, red onion, fennel, kalamata olive, arugula, extra virgin olive oil</p>
+          </article>
+          <article class="mitem" data-hay="chanterelle tostada hibiscus tortilla candied chanterelle black bean puree cherry rum glaze vegan mushroom">
+            <p class="mitem__name"><span>Chanterelle Tostada</span><span class="vmark">Vegan</span></p>
+            <p class="mitem__desc">Hibiscus tortilla, candied chanterelle, black bean purée, cherry rum glaze</p>
+          </article>
+          <article class="mitem" data-hay="ancho agave cauliflower steak pomegranate chimichurri portabella vegetable demi glace vegan mushroom">
+            <p class="mitem__name"><span>Ancho Agave Cauliflower Steak</span><span class="vmark">Vegan</span></p>
+            <p class="mitem__desc">Pomegranate chimichurri, portabella, vegetable demi glace</p>
+          </article>
+          <article class="mitem" data-hay="mango chili lime sorbet vegan dessert">
+            <p class="mitem__name"><span>Mango Chili Lime Sorbet</span><span class="vmark">Vegan</span></p>
+          </article>
+        </div>
+      </section>
+
+      <section class="mgroup mgroup--ember" id="brunch" data-kind="food">
+        <div class="mgroup__head">
+          <div class="mgroup__title">
+            <h2>Brunch</h2>
+            <span class="es" style="margin:0">Almuerzo</span>
+            <span class="n">Saturday &amp; Sunday</span>
+          </div>
+          <div class="mgroup__rule"></div>
+          <p class="mgroup__blurb">Saturday and Sunday, ten until three. Southern plates with the Latin side of the kitchen showing.</p>
+        </div>
+        <div class="mlist">
+          <article class="mitem" data-hay="shrimp gouda grits cream soaked sauteed shrimp pan sauce chefs garnish">
+            <p class="mitem__name"><span>Shrimp &amp; Gouda Grits</span><span class="mitem__lead" aria-hidden="true"></span></p>
+            <p class="mitem__price">$20</p>
+            <p class="mitem__desc">Cream-soaked gouda grits, sautéed shrimp, pan sauce, chef's garnish</p>
+          </article>
+          <article class="mitem" data-hay="chicken waffles crisp fried buttermilk spiced maple cream buffalo sauce powdered sugar">
+            <p class="mitem__name"><span>Chicken &amp; Waffles</span><span class="mitem__lead" aria-hidden="true"></span></p>
+            <p class="mitem__price">$20</p>
+            <p class="mitem__desc">Crisp fried chicken, buttermilk waffles, spiced maple cream, chef's buffalo sauce, powdered sugar</p>
+          </article>
+          <article class="mitem" data-hay="cuban breakfast skillet mojo roasted beef potatoes black bean puree two eggs pomegranate chimichurri cuban bread portabella tofu">
+            <p class="mitem__name"><span>Cuban Breakfast Skillet</span><span class="mitem__lead" aria-hidden="true"></span></p>
+            <p class="mitem__price">$22</p>
+            <p class="mitem__desc">Mojo-roasted beef, breakfast potatoes, black bean purée, two eggs, bright pomegranate chimichurri, toasted Cuban bread. Confit portabella mushroom or tofu available</p>
+          </article>
+          <article class="mitem" data-hay="brulee french toast caramelized cinnamon brown butter fresh berries spiced maple cream">
+            <p class="mitem__name"><span>Brûlée French Toast</span><span class="mitem__lead" aria-hidden="true"></span></p>
+            <p class="mitem__price">$18</p>
+            <p class="mitem__desc">Caramelized French toast, cinnamon brown butter, fresh berries, spiced maple cream</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="mgroup mgroup--ember" id="sides" data-kind="food">
+        <div class="mgroup__head">
+          <div class="mgroup__title">
+            <h2>Accompaniments</h2>
+            <span class="es" style="margin:0">Acompañamientos</span>
+            <span class="n">3 sides</span>
+          </div>
+          <div class="mgroup__rule"></div>
+          <p class="mgroup__blurb">Add to any brunch plate.</p>
+        </div>
+        <div class="mlist">
+          <article class="mitem" data-hay="breakfast potatoes side">
+            <p class="mitem__name"><span>Breakfast Potatoes</span><span class="mitem__lead" aria-hidden="true"></span></p>
+            <p class="mitem__price">$6</p>
+          </article>
+          <article class="mitem" data-hay="gouda grits side">
+            <p class="mitem__name"><span>Gouda Grits</span><span class="mitem__lead" aria-hidden="true"></span></p>
+            <p class="mitem__price">$6</p>
+          </article>
+          <article class="mitem" data-hay="two eggs side">
+            <p class="mitem__name"><span>Two Eggs</span><span class="mitem__lead" aria-hidden="true"></span></p>
+            <p class="mitem__price">$5</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="mgroup mgroup--gold" id="cocktails-dinner" data-kind="drink">
+        <div class="mgroup__head">
+          <div class="mgroup__title">
+            <h2>Dinner Cocktails</h2>
+            <span class="es" style="margin:0">Cócteles</span>
+            <span class="n">4 drinks</span>
+          </div>
+          <div class="mgroup__rule"></div>
+          <p class="mgroup__blurb">Built on sake rather than spirits, which keeps them light enough to sit through five courses.</p>
+        </div>
+        <div class="mlist">
+          <article class="mitem" data-hay="springfield fizz junmai ginjo sake guava yuzu honey mint">
+            <p class="mitem__name"><span>Springfield Fizz</span></p>
+            <p class="mitem__desc">Junmai Ginjo sake, exotic guava and vibrant yuzu, softened with golden honey and fresh mint</p>
+          </article>
+          <article class="mitem" data-hay="tamarind blossom junmai ginjo sake tamarind lychee lime elderflower liqueur tajin rim">
+            <p class="mitem__name"><span>Tamarind Blossom</span></p>
+            <p class="mitem__desc">Junmai Ginjo sake, tamarind and delicate lychee, fresh lime and elderflower liqueur, Tajín-kissed rim</p>
+          </article>
+          <article class="mitem" data-hay="southern sunrise nigori sake mango yuzu ginger liqueur">
+            <p class="mitem__name"><span>Southern Sunrise</span></p>
+            <p class="mitem__desc">Nigori sake and ripe mango, vibrant yuzu, ginger liqueur</p>
+          </article>
+          <article class="mitem" data-hay="magnolia spritz junmai ginjo sake pineapple thai basil lime prosecco">
+            <p class="mitem__name"><span>Magnolia Spritz</span></p>
+            <p class="mitem__desc">Junmai Ginjo sake, pineapple and aromatic Thai basil, fresh lime, crisp Prosecco</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="mgroup mgroup--jade" id="cocktails-brunch" data-kind="drink">
+        <div class="mgroup__head">
+          <div class="mgroup__title">
+            <h2>Brunch Cocktails</h2>
+            <span class="es" style="margin:0">Cócteles de Almuerzo</span>
+            <span class="n">4 drinks</span>
+          </div>
+          <div class="mgroup__rule"></div>
+          <p class="mgroup__blurb">Saturday and Sunday only, alongside the brunch plates.</p>
+        </div>
+        <div class="mlist">
+          <article class="mitem" data-hay="calypso bloom aperol spritz">
+            <p class="mitem__name"><span>Calypso Bloom</span></p>
+            <p class="mitem__desc">Petronita's take on a traditional Aperol spritz</p>
+          </article>
+          <article class="mitem" data-hay="garden district mimosa historic district flight glass curated tasting flight">
+            <p class="mitem__name"><span>Garden District Mimosa &amp; Historic District Flight</span></p>
+            <p class="mitem__desc">Available by the glass or as a curated tasting flight</p>
+          </article>
+          <article class="mitem" data-hay="the cafe petronita house espresso martini coffee">
+            <p class="mitem__name"><span>The Cafe Petronita</span></p>
+            <p class="mitem__desc">Our house espresso martini</p>
+          </article>
+          <article class="mitem" data-hay="petronitas signature sangria white red latin roots wine">
+            <p class="mitem__name"><span>Petronita's Signature Sangria</span></p>
+            <p class="mitem__desc">Available in white or red. A nod to our Latin roots</p>
+          </article>
+        </div>
+      </section>
+
+      <!-- GROUPS:END -->
+
+      <p class="noresults" id="menuEmpty" hidden>
+        Nothing on the menu matches that. Try clearing the search, or
+        <a href="tel:+19044656568" style="color:var(--gold-t)">call and ask</a>.
+      </p>
+
+      <div class="legend">
+        <span><span class="vmark">Vegan</span> contains no animal product</span>
+        <span>Vegan and vegetarian options are available at every course</span>
+      </div>
+
+      <div class="advisory">
+        <strong>Please tell us</strong>
+        If you have an allergy or a dietary requirement, say so when you book.
+        The tasting menu is set in advance, so the kitchen needs a little notice
+        to cook around something, and with notice it almost always can.
+      </div>
+
+      <div class="btns" style="justify-content:center;margin-top:var(--s8)">
+        <a class="btn btn--solid btn--lg" href="visit.html#reserve">
+          <span>Reserve a table</span>
+          <svg class="ico" aria-hidden="true"><use href="#i-arrow"></use></svg>
+        </a>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer class="foot">
+  <div class="wrap">
+    <div class="foot__grid">
+      <div>
+        <img class="foot__mark" src="assets/logo-mark.png" alt="Petronita's" width="300" height="305" loading="lazy">
+        <p style="max-width:32ch">
+          Southern and Latin cuisine, elevated. A five-course tasting menu in
+          Historic Springfield, Jacksonville.
+        </p>
+        <div class="foot__social">
+          <a href="https://www.instagram.com/petronitasjax" target="_blank" rel="noopener" aria-label="Petronita's on Instagram">
+            <svg class="ico" aria-hidden="true"><use href="#i-ig"></use></svg>
+          </a>
+          <a href="https://www.facebook.com/petronitasjax" target="_blank" rel="noopener" aria-label="Petronita's on Facebook">
+            <svg class="ico" aria-hidden="true"><use href="#i-fb"></use></svg>
+          </a>
+          <a href="https://www.tiktok.com/@petronitasjax" target="_blank" rel="noopener" aria-label="Petronita's on TikTok">
+            <svg class="ico" aria-hidden="true"><use href="#i-tt"></use></svg>
+          </a>
+        </div>
+      </div>
+
+      <div>
+        <h3>Visit</h3>
+        <address>
+          1349 N. Market Street<br>
+          Jacksonville, FL 32206<br>
+          <a href="tel:+19044656568">(904) 465-6568</a><br>
+          <a href="mailto:reserve@petronitas.com">reserve@petronitas.com</a>
+        </address>
+      </div>
+
+      <div>
+        <h3>Hours</h3>
+        <!-- HOURS:START -->
+        <p>
+          Dinner<br>Wednesday to Sunday, 6 PM to 11 PM<br><br>
+          Brunch<br>Saturday and Sunday, 10 AM to 3 PM<br><br>
+          Closed Monday and Tuesday
+        </p>
+        <!-- HOURS:END -->
+      </div>
+
+      <div>
+        <h3>Menu</h3>
+        <ul class="foot__links">
+          <li><a href="menu.html#tasting">Chef's tasting menu</a></li>
+          <li><a href="menu.html#tasting-vegan">Vegan tasting menu</a></li>
+          <li><a href="menu.html#brunch">Brunch</a></li>
+          <li><a href="menu.html#cocktails-dinner">Cocktails</a></li>
+          <li><a href="visit.html#reserve">Reserve a table</a></li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="foot__legal">
+      <span>&copy; <span data-year>2026</span> Petronita's. All rights reserved.</span>
+      <span>Southern &amp; Latin cuisine · Jacksonville, Florida</span>
+    </div>
+  </div>
+</footer>
+
+<script src="js/menu.js"></script>
+<script src="js/main.js"></script>
+</body>
+</html>

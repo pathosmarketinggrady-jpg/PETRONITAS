@@ -1,0 +1,90 @@
+PETRONITA'S, SOUTHERN & LATIN CUISINE
+Website files
+===========================================================
+
+
+FIRST, EXTRACT THIS FOLDER
+--------------------------
+Right-click the zip and choose "Extract All", then open
+the folder that appears.
+
+Do not open index.html from inside the zip. Windows will
+show you the page with no styling and it will look broken,
+because the stylesheet and images are still zipped up.
+
+Once extracted, double-click index.html. The whole site
+works with no internet connection.
+
+
+WHAT IS HERE
+------------
+  index.html     Home
+  menu.html      All the menus, with search and filters
+  story.html     Petronita, the kitchen, the neighbourhood
+  visit.html     Address, hours, reservations
+
+  css/           One stylesheet
+  js/menu.js     THE MENU. Edit this one.
+  js/main.js     Behaviour only
+  assets/        Logo and photography
+  README.md      The full notes
+
+
+CHANGING THE MENU
+-----------------
+js/menu.js holds every course, price, the address, the
+phone number and the opening hours, written once.
+
+The menu is ALSO written into menu.html and index.html as
+real text, so the page still reads properly with
+JavaScript turned off and Google can index it. So when you
+change a price in js/menu.js, change it in the HTML too,
+between the marker comments. README.md explains it.
+
+
+FIVE THINGS TO CHECK BEFORE THIS GOES LIVE
+------------------------------------------
+These are all things where the current petronitas.com
+disagrees with itself. Nothing here was guessed, but
+somebody should confirm which version is right.
+
+1. THE PHONE NUMBER.
+   The contact page lists (713) 555-0193. That is not a
+   real number: 555-01xx is the range reserved for films
+   and TV, and 713 is Houston. The same page also lists
+   (904) 465-6568, which is what this site uses.
+
+2. THE HOMEPAGE DISHES.
+   petronitas.com shows four signature dishes with prices,
+   including a Tres Leches d'Or with gold leaf at $18.
+   None of them are on any of the five PDF menus. Dinner
+   is actually a set five-course tasting menu with no
+   per-dish prices. This site follows the PDFs.
+
+3. CLOSING TIME.
+   The homepage says dinner ends at 11 PM. The contact
+   page says 1 AM. This site says 11 PM.
+
+4. THE EMAIL info@covesocial.com.
+   It is on the contact page and belongs to a different
+   business. It is not used here.
+
+5. THE OPENTABLE LINK.
+   The link on the current site is a plain profile link.
+   OpenTable charges the restaurant a fee per person on
+   bookings that arrive that way, even though the
+   restaurant's own website sent the guest. Their DIRECT
+   link, from the OpenTable dashboard, carries restref=
+   and costs nothing. Worth asking for. README.md has the
+   detail and where to paste it.
+
+
+ABOUT THE PHOTOGRAPHS
+---------------------
+There is only one photograph, because that is all the
+current site has. It is used twice, cropped two ways.
+
+The design has room for more and would be noticeably
+better with them: the dining room under candlelight, a few
+plated courses, the bar, the building at night. If a shoot
+happens, they drop straight in.
